@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@font-face {
+    font-family: fontAndroid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(184, 250, 158);
+}
+header{
+    padding: 10px;
+    background-image: linear-gradient( 0deg, darkgreen, lightgreen);
+    color: white;
+    box-shadow: 0px 0px 5px black;
+
+}
+h1.siteName{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 2.5em;
+}
+header > p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+header > nav{
+    margin-left: 10px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+header > nav > a:hover{
+    background-color: rgb(96, 161, 96);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.212);
+    transition: 0.5s;
+}
+
+section{
+    max-width: 700px;
+    min-width: 300px;
+    padding: 15px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25); 
+}
+
+section > h1{
+    margin: 10px 0px 10px -10px;
+    font-family: 'fontAndroid';
+    color: darkgreen;
+}
+h2{
+    margin: 10px 0px 10px -10px;
+    font-family: 'fontAndroid';
+    font-size: 18px;
+    color: darkgreen;
+    padding: 2px;
+    background-image: linear-gradient(90deg, lightgreen, white );
+}
+section p{
+    text-align: justify;
+    text-transform: inherit;
+    text-indent: 3em;
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+section > p > a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bolder;
+    padding: 2px;
+}
+section > p > a::after{
+    content: '📎';
+}
+section > p > a:hover{
+    background-color: rgb(96, 161, 96);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.212);
+    transition: 0.5s;
+    color: white;
+}
+picture > img{
+    display: block;
+    margin: 0px auto;
+}
+img{
+    display: block;
+    margin: 0px auto;
+    
+    width: 100%;
+}
+main > img.pequena{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: darkgreen;
+    margin-bottom: 30px;
+    margin: 0px -15px 30px -15px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+section > aside{
+    background: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+aside > h3{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p > a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+aside > p > a::after{
+    content: '📎';
+}
+aside > p > a:hover{
+    background-color: rgb(96, 161, 96);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.212);
+    transition: 0.5s;
+    color: white;
+}
+
+
+footer{
+    margin: 30px 0px 0px 0px;
+    background: darkgreen;
+    color: white;
+    text-align: center;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    transition: 1s;
+}
